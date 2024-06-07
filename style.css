@@ -1,0 +1,223 @@
+*{
+    margin: 4;
+    padding: 4;
+}
+header{
+    background-color: transparent;
+    background-position: 0cqb;
+    font-size: 1em;
+    padding: 1rem;
+
+}
+.s0 {
+    font-weight: 600;
+    text-decoration-line: none;
+    color: black;
+}
+.s1 {
+    font-weight: 500;
+    text-decoration-line: none;
+    color: black;
+}
+.s2, .s3, .s4 {
+    font-weight: 100;
+    text-decoration-line: none;
+    color: black;
+}
+button { background-color: rgb(2, 119, 237);
+    border: 1px;
+    padding: 20px;
+    background: rgba(255, 255, 255, .3);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    
+}
+button a {
+    color: #fff;
+    text-decoration-line: none;
+    transition: all .3s;
+}
+.change {
+    font-size: large;
+}
+button a:hover {
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+p button {
+    color: #fff;
+    text-decoration-line: none;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+p button:hover {
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+a {
+    color: rgb(2, 119, 237);
+    transition: all .3s;
+    
+}
+a:hover {
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    margin-top: 300px;
+    padding: 1rem;
+}
+body{
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    margin: 30px;
+    
+}
+.marge1 {
+    margin: 20px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 0.8em;
+}
+.m {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.marge2 {
+    margin: 20px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 0.8em;
+}
+.m1{
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.fb {
+    display: flex;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: rgb(169, 225, 169);
+}
+.container {
+    display: flex;
+    justify-content: space-between(100px);
+    font-size: 18px;
+    text-align: center;
+    margin-left: 300px;
+}
+.carac {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+h5 {
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+
+}
+textarea {
+    height: 30px;
+    background: transparent;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1rem;
+    width: 800px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+hr {
+    margin: o;
+    background-color: black;
+    border: 0;
+    height: 1px;
+    width: 100%;
+}
+input {
+    height: 30px;
+    background: transparent;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 1.6rem;
+    width: 800px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+    font-weight: 500;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+
+}
+input :hover,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, .2);
+}
+.moy {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+}
+body {
+    background: linear-gradient(45deg, #fc466b, #3f5efb);
+    height: 100vh;
+    font-family: arial, sans-serif;
+}
+form {
+    background: rgba(255, 255, 255, .3);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+
+    text-align: center;
+}
+label {
+    color: white;
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+h1 {
+    color: white;
+    font-weight: 500;
+    opacity: .7;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+p {
+    justify-content: center;
+}
+img {
+    justify-content: center;
+    text-align: center;
+}
